@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>SNI Digital Product SoundBoard</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    </head>
+    <body class="p-5">
+
+        <div class="container mb-5">
+
+            <h2 class="text-center mb-4">Sound Effects</h2>
+
+            <div class="row">
+                <div class="col-md mb-3">
+                    <audio preload="auto" id="soundApplause" src="sounds/effects/soundApplause.wav"></audio>
+                    <button type="button" class="btn btn-outline-primary btn-block" onclick="document.getElementById('soundApplause').play()">Applause</button>
+                </div>
+                <div class="col-md mb-3">
+                    <audio preload="auto" id="soundAirhorn" src="sounds/effects/soundAirhorn.mp3"></audio>
+                    <button type="button" class="btn btn-outline-primary btn-block" onclick="document.getElementById('soundAirhorn').play()">Airhorn</button>
+                </div>
+                <div class="col-md mb-3">
+                    <audio preload="auto" id="soundsThatWooWoo" src="sounds/effects/soundsThatWooWoo.mp3"></audio>
+                    <button type="button" class="btn btn-outline-primary btn-block" onclick="document.getElementById('soundsThatWooWoo').play()">It's That Woo Whoooo</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md mb-3">
+                    <audio preload="auto" id="soundPlayOut" src="sounds/effects/soundPlayOut.mp3"></audio>
+                    <button type="button" class="btn btn-outline-primary btn-block" onclick="document.getElementById('soundPlayOut').play()">Your Speech Is Too Long</button>
+                </div>
+                <div class="col-md mb-3">
+                    <audio preload="auto" id="soundsShowMeWhatYouGot" src="sounds/effects/soundsShowMeWhatYouGot.mp3"></audio>
+                    <button type="button" class="btn btn-outline-primary btn-block" onclick="document.getElementById('soundsShowMeWhatYouGot').play()">Show Me What You Got</button>
+                </div>
+                <div class="col-md mb-3">
+                    <audio preload="auto" id="soundsILikeWhatYouGot" src="sounds/effects/soundsILikeWhatYouGot.mp3"></audio>
+                    <button type="button" class="btn btn-outline-primary btn-block" onclick="document.getElementById('soundsILikeWhatYouGot').play()">I Like What You Got</button>
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+</html>
